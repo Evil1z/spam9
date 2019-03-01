@@ -2,7 +2,7 @@
 const client = new Discord.Client();
 const client2 = new Discord.Client();
 const myid = [''];
-const prefix = ['*'];
+const prefix = ['-'];
 
 client.on('ready', () => {
    console.log(`----------------`);
@@ -38,7 +38,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if(message.content === prefix+'ريب'){
-        message.channel.send("#rep "+"<@" + myid + ">")
+        message.channel.send("#rep @238717052368584714")
     }
 });
 
@@ -46,8 +46,8 @@ client.on('message', message => {
 if (message.content === prefix+'spam') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+      for(let x = 0; x < 40000; x++) {
+        message.channel.send(`**abcازرع بذرة تنمو نخلة تحصد بلحة اكس دي اكس دي ولا عز اكس دي نياهاهااهاه السكر في الشاي و الحلبة في العلبة**[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -97,8 +97,8 @@ client2.on('message', message => {
 if (message.content === prefix+'spam') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+      for(let x = 0; x < 40000; x++) {
+        message.channel.send(`**ازرع بذرة تنمو نخلة تحصد بلحة اكس دي اكس دي ولا عز اكس دي نياهاهااهاه السكر في الشاي و الحلبة في العلبة**[ " ${x} " ]`)
           .then(m => {
             count++;
           })
