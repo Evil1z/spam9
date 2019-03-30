@@ -46,7 +46,7 @@ client.on('message', message => {
 if (message.content === prefix+'spam') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 40000; x++) {
+      for(let x = 0; x < 20000; x++) {
         message.channel.send(`**abcازرع بذرة تنمو نخلة تحصد بلحة اكس دي اكس دي ولا عز اكس دي نياهاهااهاه السكر في الشاي و الحلبة في العلبة**[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -97,7 +97,7 @@ client2.on('message', message => {
 if (message.content === prefix+'spam') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 40000; x++) {
+      for(let x = 0; x < 20000; x++) {
         message.channel.send(`**ازرع بذرة تنمو نخلة تحصد بلحة اكس دي اكس دي ولا عز اكس دي نياهاهااهاه السكر في الشاي و الحلبة في العلبة**[ " ${x} " ]`)
           .then(m => {
             count++;
